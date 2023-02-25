@@ -22,6 +22,16 @@
     width: 616px;
     height: 876px;
 
+    @media screen and (max-width: 550px) {
+      width: 416px;
+      height: 526px;
+    }
+
+    @media screen and (max-width: 380px) {
+      width: 346px;
+      height: 376px;
+    }
+
     .calculator {
       display: flex;
       justify-content: center;
@@ -39,6 +49,16 @@
         0px 3.71362px 7.1555px rgba(0, 0, 0, 0.121944);
       border-radius: 18px;
 
+      @media screen and (max-width: 550px) {
+        width: 354px;
+        height: 500px;
+      }
+
+      @media screen and (max-width: 380px) {
+        width: 354px;
+        height: 500px;
+      }
+
       .sample {
         font-weight: 500;
         font-size: 24px;
@@ -47,6 +67,10 @@
         margin: 0 auto;
 
         overflow: auto;
+
+        @media screen and (max-width: 550px) {
+          width: 80%;
+        }
       }
 
       .result {
@@ -61,6 +85,14 @@
         border-bottom: 2px solid #ffffff3d;
 
         overflow: auto;
+
+        @media screen and (max-width: 550px) {
+          width: 80%;
+        }
+
+        @media screen and (max-width: 380px) {
+          font-size: 46px;
+        }
       }
 
       input {
@@ -89,12 +121,34 @@
 
         width: 490px;
 
+        @media screen and (max-width: 550px) {
+          width: 320px;
+        }
+
+        @media screen and (max-width: 380px) {
+          width: 250px;
+        }
+
         button {
           font-weight: 500;
           font-size: 36px;
           line-height: 88px;
 
           @include button-style;
+
+          @media screen and (max-width: 550px) {
+            width: 70px;
+            height: 70px;
+            font-size: 26px;
+            line-height: 18px;
+          }
+
+          @media screen and (max-width: 380px) {
+            width: 60px;
+            height: 60px;
+            font-size: 26px;
+            line-height: 18px;
+          }
         }
       }
     }
