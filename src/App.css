@@ -2,20 +2,19 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Geometria',
-    sans-serif;
+  font-family: 'Geometria', sans-serif;
+   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 button{
-  color: #F2F2F2;
   background: inherit;
   border: none;
 
   font-weight: 500;
-font-size: 36px;
-line-height: 88px;
+  font-size: 36px;
+  line-height: 88px;
 }
 
 code {

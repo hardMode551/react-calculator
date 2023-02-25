@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../App.scss';
+import './Calculator.scss';
 
 function Calculator() {
   // Состояние для хранения введенного примера и результата
