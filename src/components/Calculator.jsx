@@ -117,7 +117,9 @@ function Calculator() {
           <button onClick={handleButtonClick} value=".">
             ,
           </button>
-          <button onClick={handleEqualClick}>=</button>
+          <button className="resultBtn" onClick={handleEqualClick}>
+            =
+          </button>
         </div>
       </div>
     </div>
